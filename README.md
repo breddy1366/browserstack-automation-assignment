@@ -35,14 +35,15 @@ src/
 └── browserstack-config.json
 
 
-##  How to Run Tests
+🚀 How to Run Tests
 
-### Local
-```bash
+✅ Local Execution
+
 mvn clean test -DsuiteXmlFile=testng-local.xml
 
-### BrowserStack (5 parallel sessions)
-Set your BrowserStack credentials in browserstack-config.json
-```bash
-mvn clean test -DsuiteXmlFile=testng-browserstack.xml
+🌐 BrowserStack Execution (5 Parallel Sessions)
+Set your BrowserStack credentials in resources/browserstack-config.json.
 
+Run the tests:
+
+mvn clean test -DsuiteXmlFile=testng-browserstack.xml
