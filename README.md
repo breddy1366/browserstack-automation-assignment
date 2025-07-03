@@ -1,30 +1,42 @@
 # BrowserStack Automation Assignment
 
-## 👨‍💻 Tech Stack
+## Tech Stack
 - Java
+- Maven
 - Selenium WebDriver
-- BrowserStack (Parallel Testing)
-- JSoup
+- TestNG
+- BrowserStack Integration
+- Jsoup (for HTML parsing)
+- OkHttp (for REST API integration)
 - Google Translate API
-- OkHttp (API requests)
-- TestNG (or JUnit)
 
-## 📋 Problem Statement
+## Problem Statement
 1. Scrape 5 articles from "Opinion" section of El País.
-2. Extract and print titles & content.
-3. Download cover images.
-4. Translate article headers to English using Google Translate API.
-5. Analyze common repeated words (3+ occurrences).
-6. Run 5 parallel tests on BrowserStack.
+2. Extract and print article titles and content.
+3. Download cover images locally.
+4. Translate titles to English using Google Translate API.
+5. Identify and print repeated words (3+ times).
+6. Run 5 parallel tests on BrowserStack (Desktop & Mobile).
 
-## 🏗 Project Structure
+##  Project Structure
 
 src/
-├── main/java/utils/Translator.java
-└── test/java/tests/{BrowserStackTest, ScraperTest}.java
+├── main/
+│ └── java/
+│ └── utils/
+│ ├── Translator.java
+│ └── ImageDownloader.java
+├── test/
+│ └── java/
+│ └── tests/
+│ ├── ScraperTest.java
+│ └── BrowserStackTest.java
+└── resources/
+└── browserstack-config.json
 
 
-## 🧪 Running Tests
+##  How to Run Tests
+
+### Local
 ```bash
-mvn clean test
-
+mvn clean test -DsuiteXmlFile=testng-local.xml
