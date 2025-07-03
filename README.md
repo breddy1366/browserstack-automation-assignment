@@ -40,3 +40,9 @@ src/
 ### Local
 ```bash
 mvn clean test -DsuiteXmlFile=testng-local.xml
+
+### BrowserStack (5 parallel sessions)
+Set your BrowserStack credentials in browserstack-config.json
+
+Run: mvn clean test -DsuiteXmlFile=testng-browserstack.xml
+
