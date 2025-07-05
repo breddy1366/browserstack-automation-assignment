@@ -26,7 +26,7 @@ jobs:
           cache: maven
 
       - name: Set Up Apache Maven
-        uses: s4u/setup-maven-action@v1
+        uses: s4u/setup-maven-action@v1.11.0
         with:
           maven-version: '3.9.6'
 
