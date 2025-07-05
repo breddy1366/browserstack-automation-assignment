@@ -1,0 +1,63 @@
+# =============================
+# Set BrowserStack Credentials
+# =============================
+userName: bharathreddy_jki5Kq
+accessKey: 2URLhmVaryuxaVAWGqeh
+
+# ======================
+# BrowserStack Reporting
+# ======================
+projectName: NewsScraper
+buildName: ElPais Scrape
+buildIdentifier: '#${BUILD_NUMBER}'  # You can use ${DATE_TIME} as an alternative
+
+# =======================================
+# Platforms (Browsers / Devices to test)
+# =======================================
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Monterey
+    browserName: Firefox
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: latest
+
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+    realMobile: true
+
+  - deviceName: iPhone 14
+    osVersion: 16
+    browserName: safari
+    realMobile: true
+
+# =======================
+# Parallels per Platform
+# =======================
+parallelsPerPlatform: 1
+
+# ================================
+# BrowserStack Local Testing
+# ================================
+browserstackLocal: true
+
+# ===================
+# Debugging features
+# ===================
+debug: false
+networkLogs: false
+consoleLogs: errors
+
+# ================
+# Source Tracking
+# ================
+source: java:eclipse:v1.0.10

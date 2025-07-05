@@ -1,0 +1,767 @@
+[
+    {
+        "duration": 12.010200023651123,
+        "eventName": "sdk:cli:start",
+        "startTime": 1799555085.4612,
+        "success": true,
+        "worker": 1,
+        "failure": null,
+        "details": null,
+        "entryType": "measure",
+        "platform": 0,
+        "command": null,
+        "testName": null,
+        "hookType": "",
+        "cli": true
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 819.9172999858856,
+        "duration": 1221.8763000965118,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8252
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2044.3281998634338,
+        "duration": 0.10050010681152344,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8252
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2044.6115000247955,
+        "duration": 0.01530003547668457,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8252
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2044.470200061798,
+        "duration": 3188.4370999336243,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8252
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5291.111700057983,
+        "duration": 413.931599855423,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8252
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 687.5149998664856,
+        "duration": 1202.8085000514984,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8072
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1892.9939999580383,
+        "duration": 0.0922999382019043,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8072
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1893.2605998516083,
+        "duration": 0.014500141143798828,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8072
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1893.126699924469,
+        "duration": 3204.3951001167297,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8072
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5137.360299825668,
+        "duration": 432.7228000164032,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8072
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 683.7878000736237,
+        "duration": 1303.5908999443054,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8496
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1991.3494000434875,
+        "duration": 0.2919001579284668,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8496
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1992.2071001529694,
+        "duration": 0.08150005340576172,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8496
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1991.7917001247406,
+        "duration": 2879.09450006485,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8496
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 4916.341099977493,
+        "duration": 302.3991000652313,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 8496
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 610.0377998352051,
+        "duration": 1043.1597001552582,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5432
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1655.8116998672485,
+        "duration": 0.09019994735717773,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5432
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1656.0940999984741,
+        "duration": 0.017599821090698242,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5432
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1655.9431998729706,
+        "duration": 2896.8291001319885,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5432
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 4595.419099807739,
+        "duration": 302.27860021591187,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 5432
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 641.5848000049591,
+        "duration": 1198.8457000255585,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 28472
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1844.0003998279572,
+        "duration": 0.17550015449523926,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 28472
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1844.4394998550415,
+        "duration": 0.0168001651763916,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 28472
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1844.2530999183655,
+        "duration": 2864.333300113678,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 28472
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 4750.132599830627,
+        "duration": 394.766300201416,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 28472
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 668.3120000362396,
+        "duration": 1099.0175998210907,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7460
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1769.9038000106812,
+        "duration": 0.0866999626159668,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7460
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1770.1619000434875,
+        "duration": 0.013399839401245117,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7460
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1770.0325000286102,
+        "duration": 4042.5960998535156,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7460
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5852.121500015259,
+        "duration": 336.1749999523163,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 7460
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 613.6303000450134,
+        "duration": 909.1107001304626,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16600
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1525.7375001907349,
+        "duration": 0.09619998931884766,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16600
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1526.0417001247406,
+        "duration": 0.015799999237060547,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16600
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1525.8839001655579,
+        "duration": 2850.147199869156,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16600
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 4413.631600141525,
+        "duration": 364.43470001220703,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 16600
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 692.8360002040863,
+        "duration": 1114.7507998943329,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11152
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1810.6096000671387,
+        "duration": 0.08319997787475586,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11152
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1810.8675000667572,
+        "duration": 0.013000011444091797,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11152
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1810.7333002090454,
+        "duration": 3294.317799806595,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11152
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5151.8105001449585,
+        "duration": 350.7077000141144,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 11152
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 627.9306001663208,
+        "duration": 1105.1001000404358,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12372
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1735.6245000362396,
+        "duration": 0.09630012512207031,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12372
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1735.9240000247955,
+        "duration": 0.017300128936767578,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12372
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1735.764100074768,
+        "duration": 2834.0657000541687,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12372
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 4614.67560005188,
+        "duration": 418.62220001220703,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 12372
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 622.6480000019073,
+        "duration": 1167.7443997859955,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 9852
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1793.52849984169,
+        "duration": 0.09580016136169434,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 9852
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1793.830799818039,
+        "duration": 0.017100095748901367,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 9852
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1793.668399810791,
+        "duration": 3257.5270001888275,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 9852
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5095.895799875259,
+        "duration": 283.40869998931885,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 9852
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 735.1965000629425,
+        "duration": 1249.746099948883,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22848
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1988.4604001045227,
+        "duration": 0.08920001983642578,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22848
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1988.8050000667572,
+        "duration": 0.11280012130737305,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22848
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1988.627200126648,
+        "duration": 3590.4591999053955,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22848
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5630.955300092697,
+        "duration": 296.3991000652313,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 22848
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 635.8831000328064,
+        "duration": 1401.0252997875214,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 4792
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2041.8174998760223,
+        "duration": 0.14899992942810059,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 4792
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2042.2809998989105,
+        "duration": 0.024699926376342773,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 4792
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2042.0530998706818,
+        "duration": 3330.15549993515,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 4792
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5418.163699865341,
+        "duration": 531.9063000679016,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 4792
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 815.4725000858307,
+        "duration": 1308.899199962616,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18732
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2127.4948999881744,
+        "duration": 0.09330010414123535,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18732
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 2127.769599914551,
+        "duration": 0.014000177383422852,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18732
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 2127.634299993515,
+        "duration": 3199.3655998706818,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18732
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5377.962500095367,
+        "duration": 312.87589979171753,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 18732
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 581.3738000392914,
+        "duration": 1147.3924000263214,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2296
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1731.355800151825,
+        "duration": 0.1034998893737793,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2296
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1731.7473001480103,
+        "duration": 0.019299983978271484,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2296
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1731.5074000358582,
+        "duration": 3412.380599975586,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2296
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5190.305000066757,
+        "duration": 312.09590005874634,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2296
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 875.7235000133514,
+        "duration": 1097.695699930191,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6532
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1976.1349999904633,
+        "duration": 0.10850000381469727,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6532
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1976.425999879837,
+        "duration": 0.01380014419555664,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6532
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1976.2891998291016,
+        "duration": 3037.9848001003265,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6532
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 5050.878499984741,
+        "duration": 297.8550000190735,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 6532
+    }
+]

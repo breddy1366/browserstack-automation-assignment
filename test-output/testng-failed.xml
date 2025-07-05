@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test-0(failed)">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="tests.ElPaisEndToEndTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="teardown"/>
+          <include name="runEndToEnd" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- tests.ElPaisEndToEndTest -->
+    </classes>
+  </test> <!-- Default test-0(failed) -->
+  <test thread-count="5" name="Default test-4(failed)">
+    <parameter name="platform" value="4"/>
+    <classes>
+      <class name="tests.ElPaisEndToEndTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="teardown"/>
+          <include name="runEndToEnd" invocation-numbers="0 4"/>
+        </methods>
+      </class> <!-- tests.ElPaisEndToEndTest -->
+    </classes>
+  </test> <!-- Default test-4(failed) -->
+  <test thread-count="5" name="Default test-2(failed)">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="tests.ElPaisEndToEndTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="teardown"/>
+          <include name="runEndToEnd" invocation-numbers="1 3 4"/>
+        </methods>
+      </class> <!-- tests.ElPaisEndToEndTest -->
+    </classes>
+  </test> <!-- Default test-2(failed) -->
+  <test thread-count="5" name="Default test-1(failed)">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="tests.ElPaisEndToEndTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="teardown"/>
+          <include name="runEndToEnd" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tests.ElPaisEndToEndTest -->
+    </classes>
+  </test> <!-- Default test-1(failed) -->
+  <test thread-count="5" name="Default test-3(failed)">
+    <parameter name="platform" value="3"/>
+    <classes>
+      <class name="tests.ElPaisEndToEndTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="teardown"/>
+          <include name="runEndToEnd" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- tests.ElPaisEndToEndTest -->
+    </classes>
+  </test> <!-- Default test-3(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,38 @@
+{
+  "browserstack.user": "bharathreddy_jki5Kq",
+  "browserstack.key": "2URLhmVaryuxaVAWGqeh",
+  "capabilities": {
+      "buildName": "ElPais Scrape",
+      "projectName": "NewsScraper",
+      "name": "CrossBrowser Scraping Test"
+    },
+    "environments": [
+      {
+        "browser": "chrome",
+        "browser_version": "latest",
+        "os": "Windows",
+        "os_version": "11"
+      },
+      {
+        "browser": "firefox",
+        "browser_version": "latest",
+        "os": "OS X",
+        "os_version": "Monterey"
+      },
+      {
+        "browser": "safari",
+        "os": "OS X",
+        "os_version": "Big Sur"
+      },
+      {
+        "device": "Samsung Galaxy S22",
+        "os_version": "12.0",
+        "real_mobile": "true"
+      },
+      {
+        "device": "iPhone 14",
+        "os_version": "16",
+        "real_mobile": "true"
+      }
+    ]
+  }
