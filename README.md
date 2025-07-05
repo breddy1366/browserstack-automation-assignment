@@ -37,6 +37,18 @@ src/
 
 ### How to Run Tests
 
+### Explanation:
+
+parallel="methods" with thread-count="2" means
+
+Max 2 test methods will run in parallel.
+
+This aligns with the typical free or trial BrowserStack plan, which supports 1–2 concurrent sessions.
+
+test class uses a DataProvider for 5 configurations — they will now run 2 at a time, others will wait.
+
+
+
 ### Local Execution
 
 mvn clean test -DsuiteXmlFile=testng-local.xml
