@@ -39,13 +39,10 @@ src/
 
 ### Explanation:
 
-parallel="methods" with thread-count="2" means
-
-Max 2 test methods will run in parallel.
-
-This aligns with the typical free or trial BrowserStack plan, which supports 1–2 concurrent sessions.
-
-test class uses a DataProvider for 5 configurations — they will now run 2 at a time, others will wait.
+parallel="methods" with thread-count="2" means that a maximum of 2 test methods will run in parallel.
+This configuration aligns with the typical free or trial BrowserStack plan, which supports 1–2 concurrent sessions.
+In the test class, a DataProvider supplies 5 configurations. With this setting, 2 tests will execute concurrently, while the remaining 3 will wait in the queue.
+If I try to run 5 parallel threads, BrowserStack will not support it under the current plan, and the extra sessions will be queued or result in BROWSERSTACK_QUEUE_SIZE_EXCEEDED errors.
 
 
 ### BrowserStack Execution
