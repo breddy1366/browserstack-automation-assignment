@@ -48,14 +48,9 @@ This aligns with the typical free or trial BrowserStack plan, which supports 1â€
 test class uses a DataProvider for 5 configurations â€” they will now run 2 at a time, others will wait.
 
 
-
-### Local Execution
-
-mvn clean test -DsuiteXmlFile=testng-local.xml
-
-### BrowserStack Execution (5 Parallel Sessions)
+### BrowserStack Execution
 Set your BrowserStack credentials in resources/browserstack-config.json.
 
 Run the tests:
 
-mvn clean test -DsuiteXmlFile=testng-browserstack.xml
+mvn clean test
