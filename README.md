@@ -33,7 +33,7 @@ src/
 │ └── BrowserStackTest.java
 └── resources/
 └── browserstack-config.json
-
+└── browserstack.yml
 
 ### How to Run Tests
 
