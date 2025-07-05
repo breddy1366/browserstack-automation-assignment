@@ -1,0 +1,69 @@
+name: BrowserStack Automation - ElPais E2E Report (Windows)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-tests:
+    name: Execute Selenium Tests on Windows
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: maven
+
+      - name: Set Up Apache Maven
+        uses: s4u/setup-maven-action@v1
+        with:
+          maven-version: '3.9.6'
+
+      - name: Verify Maven Installation
+        run: mvn -version
+
+      - name: Create Required Directories
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path "Reports"
+          New-Item -ItemType Directory -Force -Path "downloads"
+          echo "Created Reports and downloads directories"
+
+      - name: Maven Clean
+        shell: cmd
+        run: |
+          mvn clean
+          echo "Maven clean executed"
+
+      - name: Run Selenium Tests
+        shell: cmd
+        run: |
+          mvn test
+          echo "Maven tests executed"
+
+      - name: Verify Extent Report
+        shell: pwsh
+        run: |
+          if (Test-Path "Reports/ElPaisE2E_Report.html") {
+            echo "Extent Report found"
+          } else {
+            Write-Error "No ElPaisE2E_Report.html generated!"
+            exit 1
+          }
+
+      - name: Upload Extent Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: ElPaisE2E-Extent-Report
+          path: Reports/ElPaisE2E_Report.html
