@@ -9,7 +9,7 @@ accessKey: 2URLhmVaryuxaVAWGqeh
 # ======================
 projectName: NewsScraper
 buildName: ElPais Scrape
-buildIdentifier: '#${BUILD_NUMBER}'  # You can use ${DATE_TIME} as an alternative
+buildIdentifier: '#${BUILD_NUMBER}'  
 
 # =======================================
 # Platforms (Browsers / Devices to test)
